@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Deterministic>false</Deterministic>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Configurations>Debug;Release;EasyTest</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.AuditTrail" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Chart" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.CloneObject" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Dashboards" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Kpi" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Notifications" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Office" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.PivotChart" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.PivotGrid" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Scheduler" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.ScriptRecorder" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.TreeListEditors" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="21.2.2-pre-21250" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="21.2.2-pre-21250" />
+  </ItemGroup>
+</Project>

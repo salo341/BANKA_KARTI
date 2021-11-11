@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BANKA_KARTI.Module", "BANKA_KARTI.Module\BANKA_KARTI.Module.csproj", "{81E35AE5-0549-441C-A1CB-F183BBF3926E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BANKA_KARTI.Module.Win", "BANKA_KARTI.Module.Win\BANKA_KARTI.Module.Win.csproj", "{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BANKA_KARTI.Win", "BANKA_KARTI.Win\BANKA_KARTI.Win.csproj", "{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BANKA_KARTI.Module.Blazor", "BANKA_KARTI.Module.Blazor\BANKA_KARTI.Module.Blazor.csproj", "{D35CBBA0-932A-4340-9001-15C2E2ADF43C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BANKA_KARTI.Blazor.Server", "BANKA_KARTI.Blazor.Server\BANKA_KARTI.Blazor.Server.csproj", "{B9059057-4759-4264-A9E4-5098EA1F6777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E35AE5-0549-441C-A1CB-F183BBF3926E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E35AE5-0549-441C-A1CB-F183BBF3926E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E35AE5-0549-441C-A1CB-F183BBF3926E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{81E35AE5-0549-441C-A1CB-F183BBF3926E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{81E35AE5-0549-441C-A1CB-F183BBF3926E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E35AE5-0549-441C-A1CB-F183BBF3926E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4D44BC-FB94-4A59-B385-C05EFB50DEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8824EA8F-F622-4D8E-B2FC-8188E5C5488A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35CBBA0-932A-4340-9001-15C2E2ADF43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35CBBA0-932A-4340-9001-15C2E2ADF43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35CBBA0-932A-4340-9001-15C2E2ADF43C}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{D35CBBA0-932A-4340-9001-15C2E2ADF43C}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{D35CBBA0-932A-4340-9001-15C2E2ADF43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35CBBA0-932A-4340-9001-15C2E2ADF43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9059057-4759-4264-A9E4-5098EA1F6777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9059057-4759-4264-A9E4-5098EA1F6777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9059057-4759-4264-A9E4-5098EA1F6777}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{B9059057-4759-4264-A9E4-5098EA1F6777}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{B9059057-4759-4264-A9E4-5098EA1F6777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9059057-4759-4264-A9E4-5098EA1F6777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D5F017A-9965-41A0-B958-1D2A5C65EC67}
+	EndGlobalSection
+EndGlobal
