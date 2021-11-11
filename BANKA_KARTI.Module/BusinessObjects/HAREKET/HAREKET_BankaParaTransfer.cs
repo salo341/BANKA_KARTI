@@ -24,7 +24,7 @@ namespace BANKA_KARTI.Module.BusinessObjects.HAREKET
     [RuleCriteria("Miktaruyari", DefaultContexts.Save, "Miktar > 0",
     "Miktar 0 veya - olamaz.!", SkipNullOrEmptyValues = false)]
     public class HAREKET_BankaParaTransfer : BaseObject
-    { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
+    { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior100, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         public HAREKET_BankaParaTransfer(Session session)
             : base(session)
         {
